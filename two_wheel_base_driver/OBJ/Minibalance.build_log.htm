@@ -1,0 +1,130 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\Experience\1.高配版两轮差速小车源码（STM32F103RCT6）\User\Minibalance.uvproj
+Project File Date:  09/01/2019
+
+<h2>Output:</h2>
+Build target 'Minibalance'
+compiling main.c...
+linking...
+Program Size: Code=39162 RO-data=6598 RW-data=536 ZI-data=4400  
+FromELF: creating hex file...
+"..\OBJ\Minibalance.axf" - 0 Error(s), 0 Warning(s).
+Load "..\\OBJ\\Minibalance.axf" 
+Set JLink Project File to "D:\Experience\1.高配版两轮差速小车源码（STM32F103RCT6）\User\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RC" selected.
+ 
+JLink info:
+------------
+DLL: V6.14a, compiled Feb 27 2017 18:41:26
+Firmware: J-Link V9 compiled Dec 16 2016 15:34:10
+Hardware: V9.40
+S/N : 59403194 
+Feature(s) : GDB, RDI, FlashBP, FlashDL, JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: AP-IDR: 0x14770011, Type: AHB-AP
+* JLink Info: AHB-AP ROM: 0xE00FF000 (Base addr. of first ROM table)
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: CoreSight components:
+* JLink Info: ROMTbl 0 @ E00FF000
+* JLink Info: ROMTbl 0 [0]: FFF0F000, CID: B105E00D, PID: 001BB000 SCS
+* JLink Info: ROMTbl 0 [1]: FFF02000, CID: B105E00D, PID: 001BB002 DWT
+* JLink Info: ROMTbl 0 [2]: FFF03000, CID: B105E00D, PID: 000BB003 FPB
+* JLink Info: ROMTbl 0 [3]: FFF01000, CID: B105E00D, PID: 001BB001 ITM
+* JLink Info: ROMTbl 0 [4]: FFF41000, CID: B105900D, PID: 001BB923 TPIU-Lite
+* JLink Info: ROMTbl 0 [5]: FFF42000, CID: B105900D, PID: 101BB924 ETM-M3
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.319V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 0
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+</pre>
+</body>
+</html>
+000, CID: B105900D, PID: 001BB923 TPIU-Lite
+* JLink Info: ROMTbl 0 [5]: FFF42000, CID: B105900D, PID: 101BB924 ETM-M3
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RC
+VTarget = 3.317V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 0
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+\ENCODER\encoder.c: 1 warning, 0 errors
+compiling IOI2C.c...
+..\MiniBalance_HARDWARE\LED\led.h(12): warning:  #1295-D: Deprecated declaration Led_Reverse - give arg types
+  void Led_Reverse();
+..\MiniBalance_HARDWARE\IIC\IOI2C.c: 1 warning, 0 errors
+compiling exti.c...
+..\MiniBalance_HARDWARE\LED\led.h(12): warning:  #1295-D: Deprecated declaration Led_Reverse - give arg types
+  void Led_Reverse();
+..\MiniBalance_HARDWARE\EXTI\exti.c: 1 warning, 0 errors
+compiling usartx.c...
+..\MiniBalance_HARDWARE\LED\led.h(12): warning:  #1295-D: Deprecated declaration Led_Reverse - give arg types
+  void Led_Reverse();
+..\MiniBalance_HARDWARE\USARTX\usartx.c: 1 warning, 0 errors
+compiling can.c...
+..\MiniBalance_HARDWARE\LED\led.h(12): warning:  #1295-D: Deprecated declaration Led_Reverse - give arg types
+  void Led_Reverse();
+..\MiniBalance_HARDWARE\CAN\can.c: 1 warning, 0 errors
+compiling pstwo.c...
+..\MiniBalance_HARDWARE\LED\led.h(12): warning:  #1295-D: Deprecated declaration Led_Reverse - give arg types
+  void Led_Reverse();
+..\MiniBalance_HARDWARE\PS2\pstwo.c: 1 warning, 0 errors
+compiling control.c...
+..\MiniBalance_HARDWARE\LED\led.h(12): warning:  #1295-D: Deprecated declaration Led_Reverse - give arg types
+  void Led_Reverse();
+..\MiniBalance\CONTROL\control.c: 1 warning, 0 errors
+compiling inv_mpu.c...
+..\MiniBalance_HARDWARE\LED\led.h(12): warning:  #1295-D: Deprecated declaration Led_Reverse - give arg types
+  void Led_Reverse();
+..\MiniBalance\DMP\inv_mpu.c: 1 warning, 0 errors
+compiling inv_mpu_dmp_motion_driver.c...
+..\MiniBalance_HARDWARE\LED\led.h(12): warning:  #1295-D: Deprecated declaration Led_Reverse - give arg types
+  void Led_Reverse();
+..\MiniBalance\DMP\inv_mpu_dmp_motion_driver.c: 1 warning, 0 errors
+compiling MPU6050.c...
+..\MiniBalance_HARDWARE\LED\led.h(12): warning:  #1295-D: Deprecated declaration Led_Reverse - give arg types
+  void Led_Reverse();
+..\MiniBalance\MPU6050\MPU6050.c: 1 warning, 0 errors
+compiling show.c...
+..\MiniBalance_HARDWARE\LED\led.h(12): warning:  #1295-D: Deprecated declaration Led_Reverse - give arg types
+  void Led_Reverse();
+..\MiniBalance\show\show.c: 1 warning, 0 errors
+compiling zhp_frame.c...
+..\MiniBalance_HARDWARE\LED\led.h(12): warning:  #1295-D: Deprecated declaration Led_Reverse - give arg types
+  void Led_Reverse();
+..\MiniBalance\frame\zhp_frame.c: 1 warning, 0 errors
+linking...
+Program Size: Code=39162 RO-data=6598 RW-data=536 ZI-data=4400  
+FromELF: creating hex file...
+"..\OBJ\Minibalance.axf" - 0 Error(s), 22 Warning(s).
+t created
